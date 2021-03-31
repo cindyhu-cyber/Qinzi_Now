@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8543445d-afa9-4c48-938a-5956494fed45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embedding/sentence_embedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/embedding/sentence_embedding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embedding/word_embedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/embedding/word_embedding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender/ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/ranking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender/re_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/re_ranking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/timestamp.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/timestamp.py" afterDir="false" />
-    </list>
+    <list default="true" id="8543445d-afa9-4c48-938a-5956494fed45" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +22,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\4. projects\10.program\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,7 +108,7 @@
       <workItem from="1616720373971" duration="11000" />
       <workItem from="1616997085365" duration="4723000" />
       <workItem from="1617062233421" duration="5000" />
-      <workItem from="1617221832600" duration="1896000" />
+      <workItem from="1617221832600" duration="2560000" />
     </task>
     <servers />
   </component>
