@@ -1,3 +1,6 @@
+"""
+Copyright: Qinzi Now, Tencent Cloud.
+"""
 import json
 from tencentcloud.common import credential
 from tencentcloud.common.profile.client_profile import ClientProfile

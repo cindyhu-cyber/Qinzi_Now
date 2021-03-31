@@ -1,3 +1,6 @@
+"""
+Copyright: Qinzi Now, Tencent Cloud.
+"""
 from configparser import ConfigParser
 
 
