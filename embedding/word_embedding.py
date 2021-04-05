@@ -25,8 +25,9 @@ def word_embed(input_word):
         client = nlp_client.NlpClient(cred, "", clientProfile)
 
         req = models.WordEmbeddingRequest()
+        message_bytes = input_word.encode('utf-8')  # 中文用utf-8 encode
         params = {
-            "Text": "test"
+            "Text": str(base64.b64encode(message_bytes))[1:]
         }
         req.from_json_string(json.dumps(params))
 
@@ -38,7 +39,7 @@ def word_embed(input_word):
 
 
 def run():
-    word_embed("etest")
+    word_embed("餐桌")
 
 
 if __name__ == "__main__":

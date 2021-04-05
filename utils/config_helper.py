@@ -1,6 +1,8 @@
 """
 Copyright: Qinzi Now, Tencent Cloud.
 """
+import sys
+sys.path.append("..")
 from configparser import ConfigParser
 
 

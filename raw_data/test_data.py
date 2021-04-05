@@ -1,11 +1,13 @@
 import pandas as pd
-
+from sklearn.linear_model import LogisticRegression
+from sklearn.externals import joblib
 
 # 导入训练集并选择特征
 url = "http://s3.amazonaws.com/assets.datacamp.com/course/Kaggle/train.csv"
 df = pd.read_csv(url)
 include = ['Age', 'Sex', 'Embarked', 'Survived']
 df_ = df[include]
+print(df_)
 
 categoricals = []
 for col, col_type in df_.dtypes.iteritems():
@@ -15,9 +17,6 @@ for col, col_type in df_.dtypes.iteritems():
         df_[col].fillna(0, inplace=True)
 
 df_ohe = pd.get_dummies(df_, columns=categoricals, dummy_na=True)
-
-from sklearn.linear_model import LogisticRegression
-from sklearn.externals import joblib
 
 dependent_variable = 'Survived'
 x = df_ohe[df_ohe.columns.difference([dependent_variable])]

@@ -1,6 +1,8 @@
 """
 Copyright: Qinzi Now, Tencent Cloud.
 """
+import sys
+sys.path.append("..")
 import json
 from tencentcloud.common import credential
 from tencentcloud.common.profile.client_profile import ClientProfile
